@@ -1,2 +1,0 @@
-aws-robomaker-small-warehouse-world:multi_jackal_base:multi_jackal_control:multi_jackal_description:multi_jackal_nav:multi_jackal_tutorials
--DCATKIN_DEVEL_PREFIX=/home/joseph/multi_jackal/devel -DCMAKE_INSTALL_PREFIX=/home/joseph/multi_jackal/install -G Unix Makefiles
