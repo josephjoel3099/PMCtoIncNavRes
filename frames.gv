@@ -1,0 +1,36 @@
+digraph G {
+"jackal0/base_link" -> "jackal0/chassis_link"[label="Broadcaster: /jackal0/robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 54.864 sec old)\nBuffer length: 0.000 sec\n"];
+"jackal0/odom" -> "jackal0/base_link"[label="Broadcaster: /jackal0/local_ekf_localization\nAverage rate: 50.223 Hz\nMost recent transform: 54.940 ( -0.076 sec old)\nBuffer length: 4.480 sec\n"];
+"jackal0/chassis_link" -> "jackal0/fenders_link"[label="Broadcaster: /jackal0/robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 54.864 sec old)\nBuffer length: 0.000 sec\n"];
+"jackal0/front_laser_mount" -> "jackal0/front_laser"[label="Broadcaster: /jackal0/robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 54.864 sec old)\nBuffer length: 0.000 sec\n"];
+"jackal0/front_mount" -> "jackal0/front_laser_mount"[label="Broadcaster: /jackal0/robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 54.864 sec old)\nBuffer length: 0.000 sec\n"];
+"jackal0/mid_mount" -> "jackal0/front_mount"[label="Broadcaster: /jackal0/robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 54.864 sec old)\nBuffer length: 0.000 sec\n"];
+"jackal0/chassis_link" -> "jackal0/mid_mount"[label="Broadcaster: /jackal0/robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 54.864 sec old)\nBuffer length: 0.000 sec\n"];
+"jackal0/chassis_link" -> "jackal0/imu_link"[label="Broadcaster: /jackal0/robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 54.864 sec old)\nBuffer length: 0.000 sec\n"];
+"jackal0/chassis_link" -> "jackal0/navsat_link"[label="Broadcaster: /jackal0/robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 54.864 sec old)\nBuffer length: 0.000 sec\n"];
+"jackal0/mid_mount" -> "jackal0/rear_mount"[label="Broadcaster: /jackal0/robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 54.864 sec old)\nBuffer length: 0.000 sec\n"];
+"jackal1/base_link" -> "jackal1/chassis_link"[label="Broadcaster: /jackal1/robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 54.864 sec old)\nBuffer length: 0.000 sec\n"];
+"jackal1/odom" -> "jackal1/base_link"[label="Broadcaster: /jackal1/local_ekf_localization\nAverage rate: 50.122 Hz\nMost recent transform: 54.949 ( -0.085 sec old)\nBuffer length: 4.509 sec\n"];
+"jackal1/chassis_link" -> "jackal1/fenders_link"[label="Broadcaster: /jackal1/robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 54.864 sec old)\nBuffer length: 0.000 sec\n"];
+"jackal1/front_laser_mount" -> "jackal1/front_laser"[label="Broadcaster: /jackal1/robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 54.864 sec old)\nBuffer length: 0.000 sec\n"];
+"jackal1/front_mount" -> "jackal1/front_laser_mount"[label="Broadcaster: /jackal1/robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 54.864 sec old)\nBuffer length: 0.000 sec\n"];
+"jackal1/mid_mount" -> "jackal1/front_mount"[label="Broadcaster: /jackal1/robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 54.864 sec old)\nBuffer length: 0.000 sec\n"];
+"jackal1/chassis_link" -> "jackal1/mid_mount"[label="Broadcaster: /jackal1/robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 54.864 sec old)\nBuffer length: 0.000 sec\n"];
+"jackal1/chassis_link" -> "jackal1/imu_link"[label="Broadcaster: /jackal1/robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 54.864 sec old)\nBuffer length: 0.000 sec\n"];
+"jackal1/chassis_link" -> "jackal1/navsat_link"[label="Broadcaster: /jackal1/robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 54.864 sec old)\nBuffer length: 0.000 sec\n"];
+"jackal1/mid_mount" -> "jackal1/rear_mount"[label="Broadcaster: /jackal1/robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 54.864 sec old)\nBuffer length: 0.000 sec\n"];
+"map" -> "jackal1/odom"[label="Broadcaster: /amcl_jackal1\nAverage rate: 50.223 Hz\nMost recent transform: 55.840 ( -0.976 sec old)\nBuffer length: 4.480 sec\n"];
+"map" -> "jackal0/odom"[label="Broadcaster: /amcl_jackal0\nAverage rate: 50.223 Hz\nMost recent transform: 55.838 ( -0.974 sec old)\nBuffer length: 4.480 sec\n"];
+"jackal1/chassis_link" -> "jackal1/front_left_wheel_link"[label="Broadcaster: /jackal1/robot_state_publisher\nAverage rate: 50.223 Hz\nMost recent transform: 54.849 ( 0.015 sec old)\nBuffer length: 4.480 sec\n"];
+"jackal1/chassis_link" -> "jackal1/front_right_wheel_link"[label="Broadcaster: /jackal1/robot_state_publisher\nAverage rate: 50.223 Hz\nMost recent transform: 54.849 ( 0.015 sec old)\nBuffer length: 4.480 sec\n"];
+"jackal1/chassis_link" -> "jackal1/rear_left_wheel_link"[label="Broadcaster: /jackal1/robot_state_publisher\nAverage rate: 50.223 Hz\nMost recent transform: 54.849 ( 0.015 sec old)\nBuffer length: 4.480 sec\n"];
+"jackal1/chassis_link" -> "jackal1/rear_right_wheel_link"[label="Broadcaster: /jackal1/robot_state_publisher\nAverage rate: 50.223 Hz\nMost recent transform: 54.849 ( 0.015 sec old)\nBuffer length: 4.480 sec\n"];
+"jackal0/chassis_link" -> "jackal0/front_left_wheel_link"[label="Broadcaster: /jackal0/robot_state_publisher\nAverage rate: 50.223 Hz\nMost recent transform: 54.850 ( 0.014 sec old)\nBuffer length: 4.480 sec\n"];
+"jackal0/chassis_link" -> "jackal0/front_right_wheel_link"[label="Broadcaster: /jackal0/robot_state_publisher\nAverage rate: 50.223 Hz\nMost recent transform: 54.850 ( 0.014 sec old)\nBuffer length: 4.480 sec\n"];
+"jackal0/chassis_link" -> "jackal0/rear_left_wheel_link"[label="Broadcaster: /jackal0/robot_state_publisher\nAverage rate: 50.223 Hz\nMost recent transform: 54.850 ( 0.014 sec old)\nBuffer length: 4.480 sec\n"];
+"jackal0/chassis_link" -> "jackal0/rear_right_wheel_link"[label="Broadcaster: /jackal0/robot_state_publisher\nAverage rate: 50.223 Hz\nMost recent transform: 54.850 ( 0.014 sec old)\nBuffer length: 4.480 sec\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 54.864"[ shape=plaintext ] ;
+ }->"map";
+}

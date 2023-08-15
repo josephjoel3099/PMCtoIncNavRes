@@ -1,0 +1,8 @@
+prefix=/home/joseph/multi_jackal/devel
+
+Name: multi_jackal_nav
+Description: Description of multi_jackal_nav
+Version: 0.0.5
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

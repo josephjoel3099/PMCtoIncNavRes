@@ -1,0 +1,6 @@
+
+<launch>
+  <node pkg="teleop_twist_keyboard" type="teleop_twist_keyboard.py" name="jackal1_teleop_twist_keyboard" output="screen">
+    <remap from="/cmd_vel" to="/jackal0/jackal_velocity_controller/cmd_vel"/>
+  </node>
+</launch>

@@ -1,0 +1,4 @@
+<launch>
+  <node name="jacka0_nav_pub" type="jackal0_nav_pub_trial.py" pkg="multi_jackal_nav" />
+  <node name="jacka1_nav_pub" type="jackal1_nav_pub_trial.py" pkg="multi_jackal_nav" />
+</launch>
